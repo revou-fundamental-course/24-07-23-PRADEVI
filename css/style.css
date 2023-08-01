@@ -1,0 +1,202 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto"; sans-serif;
+}
+
+.fContainer {
+    display: flex;
+    width: 100%;
+ }
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 60px;
+    background-color: #4682A9;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+.firstname {
+    color: white;
+    font-weight: 700;
+
+}
+
+.lastname {
+    color: #0a1d2a;
+    padding-left: 4px;
+    font-weight: 400;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation > li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a {
+    color: #0a1d2a;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.mainSection {
+    width: 90%;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.article>img {
+    padding: 15px;
+    
+    
+}
+
+.article>p {
+    padding: 15px;
+}
+
+.article>p>b {
+    padding: 15px;
+   
+}
+
+.item>li {
+    padding: 15px;
+}
+
+.form {
+    width: 80%;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #4682A9;
+    
+}
+
+.header>h1 {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-satu {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.BALI {
+    background-color: #91C8E4;
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.JAPAN {
+    background-color: #749BC2;
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.SINGAPORE {
+    background-color: #4682A9;
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container-dua {
+    width: 100%;
+    justify-content: center;
+    display: flex; 
+}
+
+.BANDUNG {
+    background-color: #91C8E4;
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.SURABAYA {
+    background-color: #749BC2;
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.THIRD {
+    background-color: #4682A9;
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.article1 {
+    width: 100%;
+    height: 300px;
+    background-color: #F6F4EB;
+}
+
+.CALLTOACTION {
+    background-color: #4682A9;
+    width: 15%;
+    margin: 15px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+    
+}
+
+
+
+.footer1 {
+    width: 100%;
+    background-color: #4682A9;
+    justify-content: space-around;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+.content2 {
+    align-items: center;
+    justify-content: center;
+}
+
